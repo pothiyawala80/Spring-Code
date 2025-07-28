@@ -14,6 +14,6 @@ public class TestController {
 	
 	@GetMapping("/version")
 	public String getControllerVersion() {
-		return "This is version 1 and properties source is : "+application_properties_source;
+		return "This is version 2 and properties source is : "+application_properties_source;
 	}
 }
